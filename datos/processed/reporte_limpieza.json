@@ -1,0 +1,32 @@
+{
+  "filas_iniciales": 200,
+  "duplicados_eliminados": 0,
+  "duplicados_detectados": 0,
+  "nulos_por_columna": {
+    "ID_Cliente": 0,
+    "Genero": 0,
+    "Edad": 0,
+    "Ingreso_Anual_k": 0,
+    "Puntaje_Gasto": 0
+  },
+  "filas_con_nulos_eliminadas": 0,
+  "filas_fuera_de_rango_eliminadas": 0,
+  "atipicos_iqr": {
+    "Edad": {
+      "cantidad": 0,
+      "limite_inferior": -1.62,
+      "limite_superior": 79.38
+    },
+    "Ingreso_Anual_k": {
+      "cantidad": 2,
+      "limite_inferior": -13.25,
+      "limite_superior": 132.75
+    },
+    "Puntaje_Gasto": {
+      "cantidad": 0,
+      "limite_inferior": -22.62,
+      "limite_superior": 130.38
+    }
+  },
+  "filas_finales": 200
+}

@@ -1,0 +1,107 @@
+{
+  "fecha_entrenamiento": "2026-10-22T17:49:46",
+  "dataset": "Mall_Customers.csv",
+  "features": [
+    "Ingreso_Anual_k",
+    "Puntaje_Gasto"
+  ],
+  "k": 5,
+  "k_mayor_silueta": 5,
+  "inercia": 65.5684,
+  "silueta": 0.5547,
+  "evaluacion_k": [
+    {
+      "k": 1,
+      "inercia": 400.0,
+      "silueta": null
+    },
+    {
+      "k": 2,
+      "inercia": 269.691,
+      "silueta": 0.3213
+    },
+    {
+      "k": 3,
+      "inercia": 157.704,
+      "silueta": 0.4666
+    },
+    {
+      "k": 4,
+      "inercia": 108.9213,
+      "silueta": 0.4939
+    },
+    {
+      "k": 5,
+      "inercia": 65.5684,
+      "silueta": 0.5547
+    },
+    {
+      "k": 6,
+      "inercia": 55.0573,
+      "silueta": 0.5399
+    },
+    {
+      "k": 7,
+      "inercia": 44.8648,
+      "silueta": 0.5281
+    },
+    {
+      "k": 8,
+      "inercia": 37.2282,
+      "silueta": 0.4552
+    },
+    {
+      "k": 9,
+      "inercia": 32.3923,
+      "silueta": 0.4571
+    },
+    {
+      "k": 10,
+      "inercia": 29.9819,
+      "silueta": 0.4432
+    }
+  ],
+  "centroides": {
+    "0": {
+      "Ingreso_Anual_k": 55.3,
+      "Puntaje_Gasto": 49.52
+    },
+    "1": {
+      "Ingreso_Anual_k": 86.54,
+      "Puntaje_Gasto": 82.13
+    },
+    "2": {
+      "Ingreso_Anual_k": 25.73,
+      "Puntaje_Gasto": 79.36
+    },
+    "3": {
+      "Ingreso_Anual_k": 88.2,
+      "Puntaje_Gasto": 17.11
+    },
+    "4": {
+      "Ingreso_Anual_k": 26.3,
+      "Puntaje_Gasto": 20.91
+    }
+  },
+  "perfiles": {
+    "0": "Promedio",
+    "1": "Alto valor",
+    "2": "Gastadores impulsivos",
+    "3": "Con potencial",
+    "4": "Bajo valor"
+  },
+  "estrategias": {
+    "Alto valor": "Fidelización: programa VIP, acceso anticipado a lanzamientos, atención personalizada y eventos exclusivos.",
+    "Con potencial": "Activación: productos premium y experiencias, campañas personalizadas e incentivos para aumentar su gasto.",
+    "Promedio": "Aumentar el ticket: programa de puntos, venta cruzada, combos y promociones de temporada.",
+    "Gastadores impulsivos": "Redes sociales, tendencias y moda, pago en cuotas y recompensas por frecuencia (cuidando el riesgo crediticio).",
+    "Bajo valor": "Descuentos, productos básicos y comunicación masiva de bajo costo."
+  },
+  "colores": {
+    "Alto valor": "#2ca02c",
+    "Con potencial": "#ff7f0e",
+    "Promedio": "#1f77b4",
+    "Gastadores impulsivos": "#9467bd",
+    "Bajo valor": "#d62728"
+  }
+}
